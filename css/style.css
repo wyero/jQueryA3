@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  height: auto;
+  padding: 40px 0;
+  width: 100%;
+  display: flex;
+  background: linear-gradient(135deg, #71b7e6, #9b5966);
+}
+section main {
+  width: 400px;
+  margin: auto;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+section main h1 {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 2.3rem;
+  padding-top: 20px;
+  text-shadow: 2px 2px 2px silver;
+}
+section main form {
+  padding: 20px 40px;
+}
+section main form div {
+  margin: 10px 0;
+}
+section main form div label {
+  color: #777;
+  font-family: "Roboto", sans-serif;
+}
+section main form div label.error {
+  font-size: 15px;
+}
+section main form div input {
+  padding: 7px;
+  width: 100%;
+  margin-top: 5px;
+  border-radius: 8px;
+  border: 2px solid #f0f0f0;
+}
+section main form div input:focus {
+  outline: 0;
+  border-color: #777;
+}
+section main form div div {
+  margin-top: -2px;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  color: red;
+}
+section main form button {
+  outline: none;
+  margin-top: 10px;
+  width: 105%;
+  padding: 8px;
+  background: linear-gradient(135deg, #71b7e6, #9b5966);
+  color: white;
+  border: none;
+  border-radius: 20px;
+  font-size: 17px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: lighter;
+  cursor: pointer;
+}
+section main form button:hover {
+  opacity: 0.8;
+}
+
+/*# sourceMappingURL=style.css.map */
